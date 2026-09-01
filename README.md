@@ -29,3 +29,12 @@ The following upstream material is intentionally excluded:
 This keeps the companion focused on the reusable skills and prevents the
 upstream evaluation corpus from entering archive-wide credential screening.
 
+## Review selection checkpoint
+
+The source companion intentionally remains a byte-identical 28-skill archive.
+The 2026-09-02 entry-level review applies the settled rubric redline (every
+dimension at least 2 and total at least 15) and selects 27 entries for the next
+acquisition run. `thinking-lindy-effect` is excluded because its total is 14.
+The complete, reproducible selection is under [`review/`](review/); downstream
+acquisition must use `review/KEEP_LIST.txt` rather than recursively importing
+all 28 source skills.

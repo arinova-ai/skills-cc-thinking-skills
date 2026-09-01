@@ -1,0 +1,447 @@
+{
+  "schemaVersion": "arinova.skill-catalog.companion-selection/v1",
+  "sourceSchemaVersion": "arinova.skill-catalog.review-input/v2",
+  "sourceDecision": "defer",
+  "rule": "keep iff every rubric dimension is >= 2 and total score is >= 15",
+  "totalEntries": 28,
+  "keepCount": 27,
+  "rejectCount": 1,
+  "keepList": [
+    "thinking-bounded-rationality",
+    "thinking-circle-of-competence",
+    "thinking-cynefin",
+    "thinking-effectuation",
+    "thinking-first-principles",
+    "thinking-five-whys-plus",
+    "thinking-jobs-to-be-done",
+    "thinking-kepner-tregoe",
+    "thinking-map-territory",
+    "thinking-margin-of-safety",
+    "thinking-model-combination",
+    "thinking-model-router",
+    "thinking-ooda",
+    "thinking-opportunity-cost",
+    "thinking-pre-mortem",
+    "thinking-probabilistic",
+    "thinking-red-team",
+    "thinking-reversibility",
+    "thinking-scientific-method",
+    "thinking-second-order",
+    "thinking-socratic",
+    "thinking-steel-manning",
+    "thinking-systems",
+    "thinking-theory-of-constraints",
+    "thinking-thought-experiment",
+    "thinking-triz",
+    "thinking-via-negativa"
+  ],
+  "rejectList": [
+    {
+      "entry": "thinking-lindy-effect",
+      "scores": {
+        "triggerClarityAndScope": 3,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 3,
+        "distinctProfessionalValue": 2
+      },
+      "minimumScore": 2,
+      "totalScore": 14,
+      "runtimeFeasible": true
+    }
+  ],
+  "entries": [
+    {
+      "entry": "thinking-bounded-rationality",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-circle-of-competence",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-cynefin",
+      "scores": {
+        "triggerClarityAndScope": 3,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 16,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-effectuation",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 4
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-first-principles",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-five-whys-plus",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-jobs-to-be-done",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-kepner-tregoe",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 4
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-lindy-effect",
+      "scores": {
+        "triggerClarityAndScope": 3,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 3,
+        "distinctProfessionalValue": 2
+      },
+      "minimumScore": 2,
+      "totalScore": 14,
+      "runtimeFeasible": true,
+      "disposition": "reject"
+    },
+    {
+      "entry": "thinking-map-territory",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 2,
+        "platformRuntimeFeasibility": 3,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 2,
+      "totalScore": 15,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-margin-of-safety",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-model-combination",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 3,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 16,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-model-router",
+      "scores": {
+        "triggerClarityAndScope": 3,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 2,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 2,
+      "totalScore": 15,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-ooda",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 17,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-opportunity-cost",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-pre-mortem",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-probabilistic",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-red-team",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 3,
+        "distinctProfessionalValue": 4
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-reversibility",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-scientific-method",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 3,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 17,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-second-order",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 2,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 2
+      },
+      "minimumScore": 2,
+      "totalScore": 15,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-socratic",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-steel-manning",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 4,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-systems",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 4
+      },
+      "minimumScore": 3,
+      "totalScore": 19,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-theory-of-constraints",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 4,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 18,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-thought-experiment",
+      "scores": {
+        "triggerClarityAndScope": 3,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 16,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-triz",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 17,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    },
+    {
+      "entry": "thinking-via-negativa",
+      "scores": {
+        "triggerClarityAndScope": 4,
+        "proceduralSpecificityAndDeliverableQuality": 3,
+        "safetyConfirmationAndDegradedMode": 3,
+        "platformRuntimeFeasibility": 4,
+        "distinctProfessionalValue": 3
+      },
+      "minimumScore": 3,
+      "totalScore": 17,
+      "runtimeFeasible": true,
+      "disposition": "keep"
+    }
+  ]
+}
